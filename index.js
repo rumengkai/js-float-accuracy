@@ -71,9 +71,18 @@
 					let precision = Math.pow(10, p)
 					return Math.ceil((num * precision).toFixed(1)) / precision
 			},
-			toFloor(num, precision = 4) {
+			toFloor(num, p = 4) {
 					let precision = Math.pow(10, p)
 					return Math.floor((num * precision).toFixed(1)) / precision
 			}
 	}
 })
+
+// # 升级补丁版本号
+// $ npm version patch
+
+// # 升级小版本号
+// $ npm version minor
+
+// # 升级大版本号
+// $ npm version major
