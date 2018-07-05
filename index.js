@@ -68,10 +68,14 @@
 					return ((arg1 * m - arg2 * m) / m).toFixed(n);
 			},
 			toCeil(num, p = 4) {
+					num = isNaN(num)?0:num
+					p = isNaN(p)?0:p
 					let precision = Math.pow(10, p)
 					return Math.ceil((num * precision).toFixed(1)) / precision
 			},
 			toFloor(num, p = 4) {
+					num = isNaN(num)?0:num
+					p = isNaN(p)?0:p
 					let precision = Math.pow(10, p)
 					return Math.floor((num * precision).toFixed(1)) / precision
 			}
