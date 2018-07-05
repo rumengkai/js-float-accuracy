@@ -20,23 +20,23 @@ import accuracy from 'js-float-accuracy'
 
 // division（除法） example
 
-console.log(accuracy.division(0.1,0.1));
+console.log(accuracy.division(0.1,0.1));		// 1
 
 // multiplication（乘法） example
 
-console.log(accuracy.multiplication(0.1,0.1));
+console.log(accuracy.multiplication(0.1,0.1));		// 0.01
 
 // addition（加法） example
 
-console.log(accuracy.addition(0.1,0.1));
+console.log(accuracy.addition(0.1,0.1));		// 0.2
 
 // subtraction（减法） example
 
-console.log(accuracy.subtraction(0.1,0.1));
+console.log(accuracy.subtraction(0.1,0.1));		// 0
 
 // 末位进1保留小数，第二个参数传入保留位数
 
-console.log(accuracy.toCeil(0.01235, 4)); // 0.0124
+console.log(accuracy.toCeil(0.01234, 4)); // 0.0124
 
 // 末位舍掉保留小数，第二个参数传入保留位数
 
