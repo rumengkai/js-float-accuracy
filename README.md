@@ -15,7 +15,8 @@ npm install js-float-accuracy
 ``` bash
 
 const accuracy=require('js-float-accuracy');
-//import float-accuracy from 'js-float-accuracy'
+
+import accuracy from 'js-float-accuracy'
 
 // division example
 
