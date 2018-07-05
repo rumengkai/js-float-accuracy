@@ -1,10 +1,10 @@
-> calculation.js@1.0.0
+> float-accuracy.js@1.0.0
 
-## install calculation.js
+## install float-accuracy.js
 
 ```bash
 
-npm install js-calculation
+npm install js-float-accuracy
 
 ```
 
@@ -14,8 +14,8 @@ npm install js-calculation
 
 ``` bash
 
-const accuracy=require('js-calculation');
-//import calculation from 'js-calculation'
+const accuracy=require('js-float-accuracy');
+//import float-accuracy from 'js-float-accuracy'
 
 // division example
 
@@ -39,11 +39,11 @@ console.log(accuracy.subtraction(0.1,0.1));
 
 ``` bash
 
-<script src="~/calculation/index.js">
+<script src="~/float-accuracy/index.js">
 // to do ...
 // adopt window.accuracy use
 </script>
 
 ```
 
-[calculation.js@1.0.0](https://github.com/noteScript/js-calculation.git)
+[float-accuracy.js@1.0.0](https://github.com/rumengkai/js-float-accuracy.git)
