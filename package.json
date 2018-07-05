@@ -1,6 +1,6 @@
 {
   "name": "js-float-accuracy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "js-float-accuracy",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "js-accuracy",
     "js计算精度"
   ],
-	"author": "rumengkai",
-	"bugs": {
+  "author": "rumengkai",
+  "bugs": {
     "url": "https://github.com/rumengkai/js-float-accuracy/issues"
   },
   "license": "ISC"
