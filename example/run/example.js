@@ -22,4 +22,6 @@ console.log(accuracy.toCeil(0.01235, 4)); // 0.0124
 
 console.log(accuracy.toCeil({}, 'a')); // 0.0124
 
+console.log(accuracy.toCeil('NaN', 'a')); // 0.0124
+
 console.log(accuracy.toFloor(0.01235, 4)); // 0.0123
