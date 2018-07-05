@@ -35,7 +35,7 @@ console.log(accuracy.subtraction(0.1,0.1));
 
 console.log(accuracy.toCeil(0.01235, 4)); // 0.0124
 
-console.log(accuracy.totoFloor(0.01235, 4)); // 0.0123
+console.log(accuracy.toFloor(0.01235, 4)); // 0.0123
 
 ```
 
