@@ -4,8 +4,9 @@
   "description": "js-float-accuracy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+		"test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node example/run/example.js"
+	},
   "keywords": [
     "js-accuracy",
     "js计算精度"
