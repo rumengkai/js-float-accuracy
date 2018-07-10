@@ -11,9 +11,13 @@
     "js-accuracy",
     "js计算精度"
   ],
-  "author": "rumengkai",
+	"author": {
+    "name": "rumengkai"
+  },
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/rumengkai/js-float-accuracy/issues"
-  },
-  "license": "ISC"
+	},
+	"repository" : "git@github.com:rumengkai/js-float-accuracy.git",
+	"homepage": "https://github.com/rumengkai/js-float-accuracy"
 }
