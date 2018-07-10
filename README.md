@@ -18,19 +18,19 @@ const accuracy=require('js-float-accuracy');
 
 import accuracy from 'js-float-accuracy'
 
-// division（除法） example
+// division（除法） 
 
 console.log(accuracy.div(0.1,0.1));		// 1
 
-// multiplication（乘法） example
+// multiplication（乘法） 
 
 console.log(accuracy.mul(0.1,0.1));		// 0.01
 
-// addition（加法） example
+// addition（加法） 
 
 console.log(accuracy.add(0.1,0.1));		// 0.2
 
-// subtraction（减法） example
+// subtraction（减法） 
 
 console.log(accuracy.sub(0.1,0.1));		// 0
 
@@ -48,7 +48,7 @@ console.log(accuracy.toFloor(0.01235, 4)); // 0.0123
 
 ``` bash
 
-<script src="~/float-accuracy/index.js">
+<script src="~/js-float-accuracy/index.js">
 // to do ...
 // adopt window.accuracy use
 </script>
