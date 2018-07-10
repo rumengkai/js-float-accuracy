@@ -7,7 +7,7 @@
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 			typeof define === 'function' && define.amd ? define(factory) : (global.accuracy = factory());
 })(this, function () {
-	return {
+	let obj =  {
 			division(arg1, arg2) { //除法
 					var t1 = 0, t2 = 0, r1, r2;
 					try {
@@ -67,6 +67,18 @@
 					n = (r1 >= r2) ? r1 : r2;
 					return ((arg1 * m - arg2 * m) / m).toFixed(n);
 			},
+			div(arg1, arg2) { //除法
+					return this.division(arg1, arg2)
+			},
+			mul(arg1, arg2) {//乘法
+					return this.multiplication(arg1, arg2)
+			},
+			add(arg1, arg2) {//加法
+					return this.addition(arg1, arg2)
+			},
+			sub(arg1, arg2) {//减法
+					return this.subtraction(arg1, arg2)
+			},
 			toCeil(num, p = 4) {
 					num = isNaN(num)?0:num
 					p = isNaN(p)?0:p
@@ -80,6 +92,7 @@
 					return Math.floor((num * precision).toFixed(1)) / precision
 			}
 	}
+	return obj
 })
 
 // # 升级补丁版本号
